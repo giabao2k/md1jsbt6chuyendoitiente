@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển đổi tiền tệ</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Nhập số tiền cần đổi:</th>
+            <th>Từ tiền:</th>
+            <th>Sang tiền:</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><label for="nhaptien"></label>
+                <input type="text" id="nhaptien">
+            </td>
+            <td><select name="" id="tutien">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+            </select></td>
+            <td><select name="" id="sangtien">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+            </select></td>
+            <td>
+                <!-- <input type="submit" value="chuyển đổi" id="kq" onclick="hamchuyendoi()"> -->
+                <button onclick="hamchuyendoi()">Chuyển Đổi</button>
+            </td>
+        </tr>
+    </table>
+    <p id="kq"></p>
+</body>
+</html>
+<script src="main.js"></script>
